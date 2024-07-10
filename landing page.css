@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilory";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    align-self: unset;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    height: 60%;
+    background-image: url(http://images.unsplash.com/photo-1444837881208-4d46d5c1f127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Z3JleSUyMGxhbmRzY2FwZXx8MHx8fHwxNjMxNTE0NTEy&ixlib=rb-1.2.1&q=80&w=1080);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.236);
+}
+
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+    color: #fff;
+}
+
+#textright{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 12px;
+    width: 40%;
+}
+
+#textright i{
+    color: #fff;
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+#buttom{
+    display:flex;
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+}
+
+#bone{
+    width: 20%;
+    height: 100%;
+    font-size: larger;
+    background-color: rgb(163, 207, 247);
+}
+
+#btwo{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.shiksha.com/mediadata/images/1490942849phpI8X76T.jpeg);
+    background-size: cover;
+    background-position: 55% 100%;
+}
+#bthree{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(143, 135, 224);
+}
+
